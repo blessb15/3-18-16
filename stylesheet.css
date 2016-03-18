@@ -34,11 +34,15 @@ h1 {
 }
 
 a {
-  color:black;
+  color:#454545;
 }
 
 .os-proj{
   padding-top: 4px;
+}
+
+.lic{
+  text-align: center;
 }
 
 @media screen and (max-width: 400px) {
