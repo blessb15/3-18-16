@@ -5,9 +5,13 @@
 
 .prof-pic {
   border-radius: 90px;
-  float: left;
 }
 
-h2{
-  padding: 30px;
+body{
+  color: white;
+}
+
+p{
+  padding-left: 10px;
+  paddin-righ: 10px;
 }
