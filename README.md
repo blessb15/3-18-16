@@ -1,6 +1,6 @@
 ## Porfolio of Blake Bless
 
-## Description
+A page that holds my favorite work.
 
 _This page stores all the content that I have made either in school or at home. I have an about me section telling viewer a little about me. I have two lists, one is for content created at home and the other is for content created at school._
 
