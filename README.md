@@ -1,10 +1,4 @@
-# Porfolio
-
- _Blake Bless_
-
-#### _Small page about me, 3/18/16_
-
-#### By _**Blake Bless**_
+## Porfolio of Blake Bless
 
 ## Description
 
@@ -20,9 +14,9 @@ _blakebless7@gmail.com_
 
 ## Technologies Used
 
-_*html*_
-_*css*_
-_*bootstrap*_
+* _HTML_
+* _CSS_
+* _Bootstrap_
 
 ### License
 
