@@ -3,6 +3,21 @@
   src: url('fonts/Jonah.ttf');
 }
 
+@font-face {
+  font-family: Timeless;
+  src: url('fonts/Timeless.ttf');
+}
+
+@font-face {
+  font-family: CODE;
+  src: url('fonts/CODE.otf');
+}
+
+@font-face {
+  font-family: CODE2;
+  src: url('fonts/CODE2.otf');
+}
+
 .top {
   text-align: center;
   font-family: arial, helvetica, sans-serif;
@@ -10,11 +25,13 @@
 
 .prof-pic {
   border-radius: 90px;
+  margin-left: 15px;
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  z-index: 2;
 }
 
 .white {
@@ -31,17 +48,34 @@
 }
 
 .font1 {
-  font-family: Jonah, sans-serif;
+  font-family: CODE;
+  text-shadow: 4px, 12px, #000000;
+}
+
+.font2 {
+  font-family: ;
+}
+
+.aboutExcerpt {
+  padding-left: 20px;
+  padding-right: 50px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.row2 {
+  text-align: center;
+}
+
+.projects {
+  font-size: 17px;
+  text-align: left;
 }
 
 body {
   color: white;
-  background-image: url("img/beach.jpg");
-}
-
-p {
-  padding-left: 20px;
-  padding-right: 20px;
+  background-image: url("img/beach2.jpg");
+  background-size: cover;
 }
 
 ul {
@@ -74,8 +108,10 @@ a:link {
 }
 
 /*Media Queries:*/
-@media screen and (max-width: 400px) {
-    h1 {
+@media screen and (max-width: 900px) {
+    h1, h2, .aboutExcerpt, .prof-pic {
       text-align: center;
+      padding: none;
     }
+
 }
