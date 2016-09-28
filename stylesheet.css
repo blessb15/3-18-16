@@ -1,42 +1,12 @@
 /*FONTS*/
 
 @font-face {
-  font-family: Jonah;
-  src: url('fonts/Jonah.ttf');
+  font-family: Questrial;
+  src: url('fonts/Questrial.ttf');
 }
 
-@font-face {
-  font-family: Timeless;
-  src: url('fonts/Timeless.ttf');
-}
-
-@font-face {
-  font-family: CODE;
-  src: url('fonts/CODE.otf');
-}
-
-@font-face {
-  font-family: CODE2;
-  src: url('fonts/CODE2.otf');
-}
-
-.font1{
-  font-family: CODE2;
-}
-
-.font2{
-  font-family: CODE;
-}
-
-.font3{
-  font-family: Timeless;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.font4{
-  font-family: Jonah;
-  font-weight: bold;
+.font1 {
+  font-family: Questrial;
 }
 
 /*HEADER*/
@@ -47,7 +17,7 @@
   width: 100%;
   box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  position: absolute;
+  position: relative;
   background-color: white;
   margin-bottom: 1px;
 }
@@ -92,7 +62,6 @@
   margin-top: 5px;
 }
 
-
 /*ABOUT*/
 
 .about {
@@ -101,10 +70,8 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  height: 575px;
   z-index: 0;
-  position: fixed;
-  padding-top: 375px;
+  height: 175px;
 }
 
 .about-title {
@@ -122,18 +89,45 @@
 
 .projects {
   box-shadow: 0px -7px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  height: 200px;
+  height: 90px;
   width: 100%;
   padding-top: 3px;
-  position: absolute;
-  bottom: 0px;
   background-color: white;
+  position: relative;
 }
 
 .projects-title {
-  font-weight: bold;
   text-align: center;
+}
+
+.projects-underlay {
+  background-image: url("img/bg3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  height: 500px;
+}
+
+.blocktalk-title {
+  text-align: center;
+}
+
+.blocktalk {
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.expressit-title {
+  text-align: center;
+}
+
+.expressit {
+  float: right;
+  margin-right: 50px;
 }
 
 
