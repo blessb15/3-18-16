@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: Questrial;
-  src: url('fonts/Questrial.ttf');
+  src: url('../fonts/Questrial.ttf');
 }
 
 @font-face {
   font-family: Quicksand;
-  src: url('fonts/Quicksand.ttf');
+  src: url('../fonts/Quicksand.ttf');
 }
 
 .font1 {
@@ -120,7 +120,12 @@
   color: white;
   font-size: 35px;
   padding-top: 35px;
-  margin-bottom: 100px !important;
+  padding-bottom: 50px;
+}
+
+.project-pic1 {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+  margin-bottom: 70px;
 }
 
 .expressit {
@@ -146,7 +151,20 @@
 }
 
 .footer {
-  background-color: gray;
+  background-color: darkgray;
+  text-align: center;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.glyphicon {
+  margin-right: 15px;
+}
+
+.phone {
+  margin-right: 50px;
 }
 
 /*MEDIA QUERIES*/
