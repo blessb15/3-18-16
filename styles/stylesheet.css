@@ -26,7 +26,7 @@
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
   ),
-  url('img/Oregon.jpg');
+  url('../img/Oregon.jpg');
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -86,7 +86,7 @@
   padding-right: 12% !important;
   margin-bottom: 100px !important;
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .move-down {
@@ -98,7 +98,7 @@
   border-color: white;
   border-radius: 5px;
   border-width: 2px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
 
 }
 
