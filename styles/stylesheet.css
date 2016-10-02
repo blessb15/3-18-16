@@ -20,6 +20,31 @@
 
 /*HEADER*/
 
+.head-bar {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: right;
+  height: 40px;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+}
+
+.head-bar-fixed {
+  position: fixed;
+}
+
+.glyphicon {
+  margin-right: 15px;
+}
+
+.phone {
+  margin-right: 50px;
+}
+
 .header {
   background:
   linear-gradient(
@@ -38,7 +63,7 @@
 .center {
   background-color: rgba(0, 0, 0, 0.5);
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 100px;
   height: 100vh;
 }
 
@@ -181,24 +206,6 @@
   width: 100%;
   margin: 0px !important;
   bottom: 0px;
-}
-
-.footer {
-  background-color: rgba(0, 0, 0, 0.9);
-  text-align: center;
-  height: 40px;
-  padding-top: 10px;
-  font-size: 17px;
-  font-weight: bold;
-  color: white;
-}
-
-.glyphicon {
-  margin-right: 15px;
-}
-
-.phone {
-  margin-right: 50px;
 }
 
 /*MEDIA QUERIES*/
