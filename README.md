@@ -4,8 +4,8 @@ A page that displays my wor
 
 ## Support and contact details
 
-_blakebless7@gmail.com_
-_503-269-2071_
+* _blakebless7@gmail.com_
+* _503-269-2071_
 
 ## Technologies Used
 
