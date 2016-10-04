@@ -1,6 +1,6 @@
 ## Porfolio of Blake Bless
 
-A page that displays my wor
+A page that displays my work
 
 ## Support and contact details
 
