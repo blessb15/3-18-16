@@ -35,7 +35,7 @@
   font-family: DidactGothic;
 }
 
-/*HEADER*/
+/*NAVIGATION*/
 
 .navigation {
   position: fixed;
@@ -58,41 +58,12 @@
   box-shadow: 0px -10px 50px rgba(0, 0, 0, 0.2);
 }
 
-.minimize-icon {
-  display: none;
-
-}
-
-.burger-icon {
-  width: 50px;
-  transition: width 0.75s, ease-in-out;
-  -moz-transition: width 0.75s, ease-in-out;
-  -webkit-transition: width 0.75s, ease-in-out;
-  padding-bottom: 5px;
-  padding-top: 8px;
-}
-
-.burger-shrink {
-  width: 25px;
-  transition: width 0.75s, ease-in-out;
-  -moz-transition: width 0.75s, ease-in-out;
-  -webkit-transition: width 0.75s, ease-in-out;
-}
-
-.nav-hidden {
-  display: none;
-}
-
-.nav-toggle {
-  float: right;
-  padding-right: 15px;
-}
-
 .nav-logo {
+  cursor: pointer;
   float: left;
   padding-left: 15px;
   padding-top: 6px;
-  opacity: 0.5;
+  opacity: 1;
   transition: width 0.75s, ease-in-out;
   -moz-transition: width 0.75s, ease-in-out;
   -webkit-transition: width 0.75s, ease-in-out;
@@ -111,6 +82,56 @@
   -webkit-transition: width 0.75s, ease-in-out;
   width: 25px;
 }
+
+.nav-hidden {
+  display: none;
+}
+
+.nav-toggle-burger {
+  float: right;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.burger-icon {
+  width: 50px;
+  transition: width 0.75s, ease-in-out;
+  -moz-transition: width 0.75s, ease-in-out;
+  -webkit-transition: width 0.75s, ease-in-out;
+  padding-bottom: 5px;
+  padding-top: 8px;
+}
+
+.burger-shrink {
+  width: 25px;
+  transition: width 0.75s, ease-in-out;
+  -moz-transition: width 0.75s, ease-in-out;
+  -webkit-transition: width 0.75s, ease-in-out;
+}
+
+.nav-toggle-minimize {
+  float: right;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.minimize-icon {
+  width: 50px;
+  transition: width 0.75s, ease-in-out;
+  -moz-transition: width 0.75s, ease-in-out;
+  -webkit-transition: width 0.75s, ease-in-out;
+  padding-bottom: 5px;
+  padding-top: 8px;
+}
+
+.minimize-shrink {
+  width: 25px;
+  transition: width 0.75s, ease-in-out;
+  -moz-transition: width 0.75s, ease-in-out;
+  -webkit-transition: width 0.75s, ease-in-out;
+}
+
+/*HEADER*/
 
 .header {
   background:
@@ -161,37 +182,16 @@
 
 /*PROJECTS*/
 
-.project-link {
-  padding-top: 300px;
-  text-align: center;
-  font-family: Quicksand;
-  font-size: 35px;
-  margin-bottom: 200px !important;
+.expressit {
+  cursor: pointer;
 }
 
-.project-button {
-  background-color: rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  width: 400px;
-  border-style: solid;
-  border-width: thin;
-  border-radius: 3px;
-  border-color: white;
+.totallyserious {
+  cursor: pointer;
 }
 
-.project-button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.project-pic1 {
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
-  margin-bottom: 35px;
-}
-
-.project-pic2 {
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
-  margin-bottom: 35px;
+.blocktalk {
+  cursor: pointer;
 }
 
 /*PROJECT BGS*/
