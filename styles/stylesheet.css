@@ -207,7 +207,7 @@
   width: 50%;
   float: left;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
@@ -224,7 +224,7 @@
   width: 50%;
   float: left;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
@@ -241,7 +241,7 @@
   width: 50%;
   float: right;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
@@ -258,7 +258,7 @@
   width: 50%;
   float: left;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
@@ -275,7 +275,7 @@
   width: 50%;
   float: left;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
@@ -293,13 +293,18 @@
   width: 50%;
   float: left;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
 }
 
 .contact {
+  background: url('../img/contactbg6.png');
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 385px;
   width: 50%;
   float: right;
@@ -308,9 +313,94 @@
   bottom: 0px;
 }
 
+.form-title {
+  padding-top: 20px;
+  color: white;
+}
+
+.email-form {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.email-name {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.email-subject {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.email-text {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  float: left;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.email-send {
+  margin-top: 20px;
+  display: inline-block;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-width: thin;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.email-send:hover {
+  display: inline-block;
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  border-width: thin;
+  cursor: pointer;
+}
+
 /*FOOTER*/
 
+.footer {
+  z-index: 2;
+  display: inline-block;
+  width: 100%;
+  height: 75px;
+  background-color: black;
+  padding-top: 23px;
+}
 
+.git-icon {
+  padding-right: 15px;
+  padding-left: 20px;
+  margin-left: 39%;
+}
+
+.linked-icon {
+  padding-right: 15px;
+}
+
+.twit-icon {
+}
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 400px) {
