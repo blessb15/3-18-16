@@ -391,30 +391,102 @@
 /*FOOTER*/
 
 .footer {
-  z-index: 2;
-  display: inline-block;
   width: 100%;
-  height: 75px;
+  height: 60px;
   background-color: black;
-  padding-top: 23px;
+  padding-top: 17px;
+  bottom: 0px;
+  float: left;
+}
+
+.center-footer {
+  display: block;
+  margin: auto;
+  width: 245px;
 }
 
 .git-icon {
-  padding-right: 15px;
-  padding-left: 20px;
-  margin-left: 39%;
+  margin-right: 15px;
+  margin-left: 24%;
 }
 
 .linked-icon {
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
-.twit-icon {
-}
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 930px) {
+  .expressit {
+    float: left;
+    width: 100%;
+  }
 
+  .expressit:hover {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../img/expressitpic.png');
+  height: 385px;
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .totallyserious {
+    float: left;
+    width: 100%;
+  }
+
+  .totallyserious:hover {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../img/TotallySerious.png');
+    height: 385px;
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .blocktalk {
+    float: left;
+    width: 100%;
+  }
+
+  .blocktalk:hover {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../img/blocktalk.png');
+    height: 385px;
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .contact {
+    float: left;
+    width: 100%;
+  }
 }
 
 /*PAGETAGS*/
