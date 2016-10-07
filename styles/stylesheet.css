@@ -83,8 +83,49 @@
   width: 25px;
 }
 
+.nav-fixed {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin-top: 40px;
+  transition: height 0.75s, ease-in-out;
+}
+
+.nav-window {
+  transition: background-color 0.75s, padding 0.75s, ease-in-out;
+  -moz-transition: background-color 0.75s, padding 0.75s, ease-in-out;
+  -webkit-transition: background-color 0.75s, padding 0.75s, ease-in-out;
+  display: none;
+  width: 25%;
+  height: 100vh;
+  float: right;
+  padding-right: 17px;
+  padding-top: 35px;
+  font-size: 25px;
+  text-align: right;
+}
+
+.nav-window-fade {
+  transition: background-color 0.75s, padding 0.75s, ease-in-out;
+  -moz-transition: background-color 0.75s, padding 0.75s, ease-in-out;
+  -webkit-transition: background-color 0.75s, padding 0.75s, ease-in-out;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.git-icon {
+  margin-right: 15px;
+  margin-left: 24%;
+}
+
+.linked-icon {
+  margin-right: 15px;
+}
+
 .nav-hidden {
   display: none;
+  height: 0px;
 }
 
 .nav-toggle-burger {
@@ -155,6 +196,8 @@
 }
 
 .name-header {
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 30px;
   text-align: center;
   margin-bottom: 30px;
@@ -392,31 +435,25 @@
 
 .footer {
   width: 100%;
-  height: 60px;
+  height: 75px;
   background-color: black;
-  padding-top: 17px;
-  bottom: 0px;
+  padding-top: 11px;
   float: left;
+  text-align: center;
 }
 
-.center-footer {
-  display: block;
-  margin: auto;
-  width: 245px;
-}
-
-.git-icon {
-  margin-right: 15px;
-  margin-left: 24%;
-}
-
-.linked-icon {
-  margin-right: 15px;
+p {
+  color: white;
+  font-size: 15px;
 }
 
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 930px) {
+  .nav-option {
+    font-size: 20px;
+  }
+
   .expressit {
     float: left;
     width: 100%;
@@ -487,6 +524,13 @@
     float: left;
     width: 100%;
   }
+}
+
+@media screen and (max-width: 795px) {
+  .nav-window {
+    width: 100%;
+  }
+
 }
 
 /*PAGETAGS*/
