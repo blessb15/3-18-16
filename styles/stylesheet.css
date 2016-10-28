@@ -229,7 +229,7 @@
   cursor: pointer;
 }
 
-.totallyserious {
+.thinkdifferent {
   cursor: pointer;
 }
 
@@ -273,13 +273,13 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-.totallyserious {
+.thinkdifferent {
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.1)
   ),
-  url('../img/TotallySerious.png');
+  url('../img/thinkdifferent.png');
   height: 385px;
   width: 50%;
   float: right;
@@ -290,13 +290,13 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-.totallyserious:hover {
+.thinkdifferent:hover {
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)
   ),
-  url('../img/TotallySerious.png');
+  url('../img/thinkdifferent.png');
   height: 385px;
   width: 50%;
   float: left;
@@ -476,18 +476,18 @@
     color: rgba(255, 255, 255, 0.9);
   }
 
-  .totallyserious {
+  .thinkdifferent {
     float: left;
     width: 100%;
   }
 
-  .totallyserious:hover {
+  .thinkdifferent:hover {
     background:
     linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url('../img/TotallySerious.png');
+    url('../img/thinkdifferent.png');
     height: 385px;
     width: 100%;
     float: left;
