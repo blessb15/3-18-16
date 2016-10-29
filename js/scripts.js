@@ -44,12 +44,14 @@ $(document).ready(function(){
 
   var expressItImages = ['img/exp2.png', 'img/exp3.png', 'img/expressitpic.png'];
   var thinkDifferetImages = ['img/TD2.png', 'img/TD3.png', 'img/thinkdifferent.png'];
+  var totallyseriousImages = ['img/TSP2.png', 'img/TSP3.png', 'img/totallyserious.png'];
 
   var int = 0;
 
   function projectPicLoop(){
     $('.expressit').css('background-image', 'url(' + expressItImages[int] + ')');
     $('.thinkdifferent').css('background-image', 'url(' + thinkDifferetImages[int] + ')');
+    $('.totallyserious').css('background-image', 'url(' + totallyseriousImages[int] + ')');
 
     int ++;
 
