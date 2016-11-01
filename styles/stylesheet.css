@@ -238,6 +238,28 @@
 }
 
 /*PROJECT BGS*/
+.overlay-text {
+  display: none;
+  margin-top: 164px;
+}
+
+.image-overlay {
+  position: absolute;
+  width: 50%;
+  height: 385px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  color: white;
+  transition: background-color, 0.5s, ease-in-out;
+}
+
+.image-overlay:hover {
+  position: absolute;
+  width: 50%;
+  height: 385px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color, 0.5s, ease-in-out;
+}
 
 .expressit {
   background:
@@ -295,10 +317,6 @@
 
 .blocktalk {
   background:
-  linear-gradient(
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
-  ),
   url('../img/blocktalk.png');
   height: 385px;
   width: 50%;

@@ -62,4 +62,28 @@ $(document).ready(function(){
     setTimeout(projectPicLoop, 5000);
   }
 
+  $('.expressit .image-overlay').hover(function() {
+    $('.expressit .overlay-text').show();
+  }, function(){
+    $('.expressit .overlay-text').hide();
+  });
+
+  $('.thinkdifferent .image-overlay').hover(function() {
+    $('.thinkdifferent .overlay-text').show();
+  }, function(){
+    $('.thinkdifferent .overlay-text').hide();
+  });
+
+  $('.totallyserious .image-overlay').hover(function() {
+    $('.totallyserious .overlay-text').show();
+  }, function(){
+    $('.totallyserious .overlay-text').hide();
+  });
+
+  $('.blocktalk .image-overlay').hover(function() {
+    $('.blocktalk .overlay-text').show();
+  }, function(){
+    $('.blocktalk .overlay-text').hide();
+  });
+
 });
