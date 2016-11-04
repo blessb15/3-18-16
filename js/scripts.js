@@ -44,7 +44,7 @@ $(document).ready(function(){
 
   var expressItImages = ['img/exp2.png', 'img/exp3.png', 'img/expressitpic.png'];
   var thinkDifferetImages = ['img/TD2.png', 'img/TD3.png', 'img/thinkdifferent.png'];
-  var totallyseriousImages = ['img/TSP2.png', 'img/TSP3.png', 'img/totallyserious.png'];
+  var totallyseriousImages = ['img/TSP2.png', 'img/TSP3.png', 'img/TotallySerious.png'];
 
   var int = 0;
 
