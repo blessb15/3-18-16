@@ -481,6 +481,12 @@
 
 }
 
+@media screen and (max-width: 520px) {
+  .center {
+    padding-top: 20vh !important;
+  }
+}
+
 /*PAGETAGS*/
 
 a {
