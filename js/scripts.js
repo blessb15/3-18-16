@@ -4,7 +4,6 @@ $(document).ready(function(){
 
   $('.move-down').click(function() {
     $(window).scrollTop($(window).height());
-    console.log("yo1");
   });
 
   $(window).scroll(function(){
@@ -24,8 +23,14 @@ $(document).ready(function(){
     }
   });
 
+  $('.nav-option').click(function(){
+    $('.nav-toggle-minimize').addClass('nav-hidden');
+    $('.nav-fixed').addClass('nav-hidden');
+    $('.nav-toggle-burger').removeClass('nav-hidden');
+    $('.nav-window').hide();
+  });
+
   $('.nav-toggle-burger').click(function() {
-    console.log("hit");
     $('.nav-toggle-burger').addClass('nav-hidden');
     $('.nav-toggle-minimize').removeClass('nav-hidden');
     $('.nav-fixed').removeClass('nav-hidden');
@@ -33,11 +38,15 @@ $(document).ready(function(){
   });
 
   $('.nav-toggle-minimize').click(function() {
-    console.log("hit2");
     $('.nav-toggle-minimize').addClass('nav-hidden');
     $('.nav-fixed').addClass('nav-hidden');
     $('.nav-toggle-burger').removeClass('nav-hidden');
     $('.nav-window').hide();
+  });
+
+  $('.email-send').click(function(){
+    $('.contact').hide();
+    $('.projects').show();
   });
 
   var timeLoop = setTimeout(projectPicLoop, 5000);

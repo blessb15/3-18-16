@@ -20,9 +20,8 @@
   src: url('../fonts/Mandali-Regular.ttf');
 }
 
-
 .font1 {
-  font-family: Quicksand;
+  font-family: Questrial;
   font-weight: 500;
 }
 
@@ -177,8 +176,8 @@
 .header {
   background:
   linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)
   ),
   url('../img/Oregon.jpg');
   height: 100vh;
@@ -186,7 +185,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
 }
 
 .center {
@@ -219,11 +218,34 @@
   height: 45px;
 }
 
+.down-border {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 90px;
+  border-color: rgba(255, 255, 255, 0);
+  padding: 7px;
+  transition: border, .7s, ease-in-out;
+}
+
+.down-border:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 90px;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 7px;
+  transition: border, .7s, ease-in-out;
+}
+
 .move:hover {
   cursor: pointer;
 }
 
 /*PROJECTS*/
+
+.projects {
+  /*display: none;*/
+}
 
 .expressit {
   cursor: pointer;
@@ -238,9 +260,16 @@
 }
 
 /*PROJECT BGS*/
+
 .overlay-text {
   display: none;
   margin-top: 164px;
+  color: black;
+}
+
+.overlay-text span {
+  font-size: 17px;
+  padding-top: 50px;
 }
 
 .image-overlay {
@@ -257,7 +286,7 @@
   position: absolute;
   width: 50%;
   height: 385px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   transition: background-color, 0.5s, ease-in-out;
 }
 
@@ -335,27 +364,31 @@
 }
 
 .contact {
-  background: url('../img/contactbg6.png');
-  background-attachment: local;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 385px;
+  height: 95vh;
   width: 100%;
   float: left;
   text-align: center;
-  color: black;
   bottom: 0px;
+  display: block;
+}
+
+.close-contact {
+  float: right;
 }
 
 .form-title {
-  padding-top: 20px;
-  color: white;
+  font-size: 75px;
+  margin-bottom: 55px;
+  padding-top: 50px;
+  color: black;
+  border-color: black;
 }
 
 .email-form {
-  margin-top: 20px;
   display: inline-block;
+  border-color: black;
+  border-radius: 2px;
+  border-width: 1px;
 }
 
 .email-name {
@@ -367,6 +400,9 @@
   margin-top: 15px;
   margin-bottom: 10px;
   padding-left: 5px;
+  border-color: black;
+  border-radius: 2px;
+  border-width: 1px;
 }
 
 .email-subject {
@@ -377,6 +413,9 @@
   width: 100%;
   margin-bottom: 10px;
   padding-left: 5px;
+  border-color: black;
+  border-radius: 2px;
+  border-width: 1px;
 }
 
 .email-return {
@@ -387,6 +426,9 @@
   width: 100%;
   margin-bottom: 10px;
   padding-left: 5px;
+  border-color: black;
+  border-radius: 2px;
+  border-width: 1px;
 }
 
 .email-text {
@@ -396,17 +438,20 @@
   float: left;
   margin-bottom: 10px;
   padding-left: 5px;
+  border-color: black;
+  border-radius: 2px;
+  border-width: 1px;
 }
 
 .email-send {
   margin-top: 20px;
   display: inline-block;
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.3);
+  border-color: black;
   border-width: thin;
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, 0.3);
-  color: white;
+  color: black;
   padding-left: 17px;
   padding-right: 17px;
   padding-top: 3px;
@@ -417,8 +462,8 @@
 .email-send:hover {
   display: inline-block;
   border-style: solid;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(255, 255, 255, 0.3);
+  background-color: black;
+  border-color: black;
   color: white;
   border-width: thin;
   cursor: pointer;
@@ -429,7 +474,7 @@
 
 .footer {
   width: 100%;
-  height: 75px;
+  height: 40px;
   background-color: black;
   padding-top: 11px;
   float: left;
@@ -471,6 +516,14 @@
   .contact {
     float: left;
     width: 100%;
+  }
+
+  .image-overlay {
+    width: 100% !important;
+  }
+
+  .projects {
+    height: 1540px;
   }
 }
 
