@@ -7,12 +7,13 @@ $(document).ready(function(){
   });
 
   $(window).scroll(function(){
-    if ($(window).scrollTop() >= 100){
+    if ($(window).scrollTop() >= 100 || $('.contact-window').hasClass('active')){
       $('.navigation').addClass('nav-fade');
     }
-    if ($(window).scrollTop() < 100){
+    if ($(window).scrollTop() < 100 && !($('.contact-window').hasClass('active'))){
       $('.navigation').removeClass('nav-fade');
     }
+
   });
 
   $('.expressit .image-overlay').hover(function() {
@@ -45,6 +46,15 @@ $(document).ready(function(){
   }, function(){
     $('.blocktalk-image').removeClass('blur');
     $('.blocktalk .overlay-text').hide();
+  });
+
+  $('.nav-contact').click(function(){
+    if($('.contact-window').hasClass('active')){
+      $('.contact-window').removeClass('active');
+    } else {
+      $('.contact-window').addClass('active');
+      $('.navigation').addClass('nav-fade');
+    }
   });
 
 });
