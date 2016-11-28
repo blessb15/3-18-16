@@ -299,9 +299,16 @@
   text-align: center;
 }
 
-.phone, .email {
-  color: white;
-  font-size: 15px;
+.twitter-icon {
+  display: inline-block;
+}
+
+.github-icon {
+  display: inline-block;
+}
+
+.linkedin-icon {
+  display: inline-block;
 }
 
 /*MEDIA QUERIES*/
