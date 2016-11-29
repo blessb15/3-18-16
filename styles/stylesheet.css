@@ -116,6 +116,7 @@
 
 .active {
   display: block !important;
+  transition: all, 1s, ease-in-out;
 }
 
 .contact-window {
@@ -126,6 +127,7 @@
   padding-top: 45px;
   background-color: rgba(55, 55, 55, 0.9);
   text-align: center;
+  transition: all, 1s, ease-in-out;
 }
 
 .contact-window-header {
