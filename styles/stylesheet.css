@@ -240,7 +240,6 @@
 /*PROJECTS*/
 
 .projects {
-  padding: 20px 50px 20px 50px;
   background-color: #f4f4f4;
   text-align: center
 }
@@ -460,7 +459,83 @@
 
 /*MEDIA QUERIES*/
 
+@media screen and (max-width: 570px){
 
+  .form-name {
+    width: 70vw !important;
+  }
+
+  .form-email {
+    width: 70vw !important;
+  }
+
+  .form-message {
+    width: 70vw !important;
+  }
+
+  .form-submit {
+    width: 70vw !important;
+  }
+
+  .projects {
+    padding: 15px 5px 5px 0px !important;
+  }
+
+  .image-overlay {
+    width: 90% !important;
+  }
+
+  .expressit {
+    width: 90% !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+    margin-top: 35px !important;
+  }
+
+  .expressit-image {
+    width: 90% !important;
+  }
+
+  .totallyserious {
+    width: 90% !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .totallyserious-image {
+    width: 90% !important;
+  }
+
+  .thinkdifferent {
+    width: 90% !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .thinkdifferent-image {
+    width: 90% !important;
+  }
+
+  .brief {
+    width: 90% !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .brief-image {
+    width: 90% !important;
+  }
+
+  .blocktalk {
+    width: 90% !important;
+    margin: 0px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .blocktalk-image {
+    width: 90% !important;
+  }
+}
 
 /*PAGETAGS*/
 
