@@ -42,7 +42,7 @@ $(document).ready(function(){
 
   $('.blocktalk .image-overlay').hover(function() {
     $('.blocktalk .overlay-text').show();
-    $('.blacktalk-image').addClass('blur');
+    $('.blocktalk-image').addClass('blur');
   }, function(){
     $('.blocktalk-image').removeClass('blur');
     $('.blocktalk .overlay-text').hide();
