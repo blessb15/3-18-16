@@ -48,6 +48,14 @@ $(document).ready(function(){
     $('.blocktalk .overlay-text').hide();
   });
 
+  $('.brief .image-overlay').hover(function() {
+    $('.brief .overlay-text').show();
+    $('.brief-image').addClass('blur');
+  }, function(){
+    $('.brief-image').removeClass('blur');
+    $('.brief .overlay-text').hide();
+  });
+
   $('.nav-contact').click(function(){
     if($('.contact-window').hasClass('active')){
       $('.contact-window').removeClass('active');
