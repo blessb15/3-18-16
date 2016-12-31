@@ -292,7 +292,34 @@
   filter: blur(3px);
 }
 
-.expressit {
+.chucksplace {
+  height: 385px;
+  width: 385px;
+  margin: 35px;
+  display: inline-block;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  transition: all, 1s, ease-in-out;
+  cursor: pointer;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.chucksplace-image {
+  background:
+  url('../img/chucksplace.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #373737;
+  height: 385px;
+  width: 385px;
+  border-color: rgba(192, 178, 131, 0.7);
+  border-width: 2px;
+  border-style: solid;
+  position: absolute;
+}
+
+/*.expressit {
   height: 385px;
   width: 385px;
   margin: 35px;
@@ -317,7 +344,7 @@
   border-width: 2px;
   border-style: solid;
   position: absolute;
-}
+}*/
 
 .thinkdifferent {
   height: 385px;
@@ -346,7 +373,7 @@
   position: absolute;
 }
 
-.totallyserious {
+/*.totallyserious {
   height: 385px;
   width: 385px;
   margin: 35px;
@@ -371,7 +398,7 @@
   border-width: 2px;
   border-style: solid;
   position: absolute;
-}
+}*/
 
 .brief {
   height: 385px;
