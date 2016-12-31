@@ -512,7 +512,17 @@
     width: 90% !important;
   }
 
-  .expressit {
+  .chucksplace {
+    width: 90% !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .chucksplace-image {
+    width: 90% !important;
+  }
+
+  /*.expressit {
     width: 90% !important;
     margin: 0px !important;
     margin-bottom: 20px !important;
@@ -521,9 +531,9 @@
 
   .expressit-image {
     width: 90% !important;
-  }
+  }*/
 
-  .totallyserious {
+  /*.totallyserious {
     width: 90% !important;
     margin: 0px !important;
     margin-bottom: 20px !important;
@@ -531,7 +541,7 @@
 
   .totallyserious-image {
     width: 90% !important;
-  }
+  }*/
 
   .thinkdifferent {
     width: 90% !important;
