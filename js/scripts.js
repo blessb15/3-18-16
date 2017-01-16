@@ -24,13 +24,13 @@ $(document).ready(function(){
     $('.chucksplace .overlay-text').hide();
   });
 
-  // $('.expressit .image-overlay').hover(function() {
-  //   $('.expressit .overlay-text').show();
-  //   $('.expressit-image').addClass('blur');
-  // }, function(){
-  //   $('.expressit .overlay-text').hide();
-  //   $('.expressit-image').removeClass('blur');
-  // });
+  $('.expressit .image-overlay').hover(function() {
+    $('.expressit .overlay-text').show();
+    $('.expressit-image').addClass('blur');
+  }, function(){
+    $('.expressit .overlay-text').hide();
+    $('.expressit-image').removeClass('blur');
+  });
 
   $('.thinkdifferent .image-overlay').hover(function() {
     $('.thinkdifferent .overlay-text').show();
@@ -40,13 +40,13 @@ $(document).ready(function(){
     $('.thinkdifferent .overlay-text').hide();
   });
 
-  // $('.totallyserious .image-overlay').hover(function() {
-  //   $('.totallyserious .overlay-text').show();
-  //   $('.totallyserious-image').addClass('blur');
-  // }, function(){
-  //   $('.totallyserious-image').removeClass('blur');
-  //   $('.totallyserious .overlay-text').hide();
-  // });
+  $('.totallyserious .image-overlay').hover(function() {
+    $('.totallyserious .overlay-text').show();
+    $('.totallyserious-image').addClass('blur');
+  }, function(){
+    $('.totallyserious-image').removeClass('blur');
+    $('.totallyserious .overlay-text').hide();
+  });
 
   $('.blocktalk .image-overlay').hover(function() {
     $('.blocktalk .overlay-text').show();
