@@ -40,13 +40,13 @@ $(document).ready(function(){
     $('.thinkdifferent .overlay-text').hide();
   });
 
-  $('.totallyserious .image-overlay').hover(function() {
-    $('.totallyserious .overlay-text').show();
-    $('.totallyserious-image').addClass('blur');
-  }, function(){
-    $('.totallyserious-image').removeClass('blur');
-    $('.totallyserious .overlay-text').hide();
-  });
+  // $('.totallyserious .image-overlay').hover(function() {
+  //   $('.totallyserious .overlay-text').show();
+  //   $('.totallyserious-image').addClass('blur');
+  // }, function(){
+  //   $('.totallyserious-image').removeClass('blur');
+  //   $('.totallyserious .overlay-text').hide();
+  // });
 
   $('.blocktalk .image-overlay').hover(function() {
     $('.blocktalk .overlay-text').show();
