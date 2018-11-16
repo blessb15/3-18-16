@@ -1,28 +1,39 @@
 $(document).ready(function(){
-
+  $('.top-btn').hide();
   var y = $(window).scrollTop();
 
-  $('.move-down').click(function() {
-    $(window).scrollTop($(window).height());
+  $('#projects').click(function() {
+    var docheight = $(document).height() - 500
+    $("html, body").animate({ scrollTop: docheight }, 500);
   });
 
   $(window).scroll(function(){
+    console.log($(window).scrollTop());
     if ($(window).scrollTop() >= 100 || $('.contact-window').hasClass('active')){
       $('.navigation').addClass('nav-fade');
     }
     if ($(window).scrollTop() < 100 && !($('.contact-window').hasClass('active'))){
       $('.navigation').removeClass('nav-fade');
     }
-
+    if($(window).width() > 1037){
+      if($(window).scrollTop() + $(window).height() == $(document).height()){
+        $('.top-btn').fadeIn();
+      } else {
+        $('.top-btn').fadeOut();
+      }
+    }
   });
 
-  $('.chucksplace .image-overlay').hover(function() {
-    $('.chucksplace .overlay-text').show();
-    $('.chucksplace-image').addClass('blur');
-  }, function(){
-    $('.chucksplace-image').removeClass('blur');
-    $('.chucksplace .overlay-text').hide();
-  });
+  if($(window).width() < 1037){
+    $('.top-btn').hide();
+  }
+  $(window).resize(function(){
+    if($(window).width() < 1037){
+      $('.top-btn').fadeOut();
+    }
+  })
+
+  $('.top-btn').click(function(){$('html, body').animate({scrollTop:0},500);return false;});
 
   $('.expressit .image-overlay').hover(function() {
     $('.expressit .overlay-text').show();
@@ -38,30 +49,6 @@ $(document).ready(function(){
   }, function(){
     $('.thinkdifferent-image').removeClass('blur');
     $('.thinkdifferent .overlay-text').hide();
-  });
-
-  // $('.totallyserious .image-overlay').hover(function() {
-  //   $('.totallyserious .overlay-text').show();
-  //   $('.totallyserious-image').addClass('blur');
-  // }, function(){
-  //   $('.totallyserious-image').removeClass('blur');
-  //   $('.totallyserious .overlay-text').hide();
-  // });
-
-  $('.blocktalk .image-overlay').hover(function() {
-    $('.blocktalk .overlay-text').show();
-    $('.blocktalk-image').addClass('blur');
-  }, function(){
-    $('.blocktalk-image').removeClass('blur');
-    $('.blocktalk .overlay-text').hide();
-  });
-
-  $('.brief .image-overlay').hover(function() {
-    $('.brief .overlay-text').show();
-    $('.brief-image').addClass('blur');
-  }, function(){
-    $('.brief-image').removeClass('blur');
-    $('.brief .overlay-text').hide();
   });
 
   $('.nav-contact').click(function(){
