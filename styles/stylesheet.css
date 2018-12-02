@@ -218,11 +218,7 @@
 /*HEADER*/
 
 .header {
-<<<<<<< HEAD
   background: url('../img/bg2.jpg');
-=======
-  background: url('../img/bg2.JPG');
->>>>>>> 571b62bb961ace9039051d615cb537fb3f0fab22
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
