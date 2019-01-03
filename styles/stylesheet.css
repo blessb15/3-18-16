@@ -282,10 +282,10 @@
 /*PROJECT BGS*/
 
 .overlay-text {
-     display: none; 
-    margin-top: 164px;
-    color: #f4f4f4;
-    text-shadow: -2px 3px 10px black;
+  display: none; 
+  margin-top: 164px;
+  color: #f4f4f4;
+  text-shadow: -2px 3px 10px black;
 }
 
 .overlay-text span {
