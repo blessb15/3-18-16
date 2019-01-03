@@ -2,10 +2,10 @@ $(document).ready(function(){
 	$('.top-btn').hide();
 	var y = $(window).scrollTop();
 
-	$('#projects').click(function() {
-		var docheight = $(document).height() - 500
-		$("html, body").animate({ scrollTop: docheight }, 500);
-	});
+	$('#projects').click(function(){
+		var element = document.getElementById('projectsDiv');
+		element.scrollIntoView({behavior: "smooth"});
+	});	
 
 	$(window).scroll(function(){
 		console.log($(window).scrollTop());
@@ -49,6 +49,14 @@ $(document).ready(function(){
 	}, function(){
 		$('.thinkdifferent-image').removeClass('blur');
 		$('.thinkdifferent .overlay-text').hide();
+	});
+
+	$('.dapperdev .image-overlay').hover(function() {
+		$('.dapperdev .overlay-text').show();
+		$('.dapperdev-image').addClass('blur');
+	}, function(){
+		$('.dapperdev-image').removeClass('blur');
+		$('.dapperdev .overlay-text').hide();
 	});
 
 	var isNav = false;
