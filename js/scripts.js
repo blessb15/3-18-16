@@ -43,14 +43,6 @@ $(document).ready(function(){
 		$('.expressit-image').removeClass('blur');
 	});
 
-	$('.thinkdifferent .image-overlay').hover(function() {
-		$('.thinkdifferent .overlay-text').show();
-		$('.thinkdifferent-image').addClass('blur');
-	}, function(){
-		$('.thinkdifferent-image').removeClass('blur');
-		$('.thinkdifferent .overlay-text').hide();
-	});
-
 	$('.dapperdev .image-overlay').hover(function() {
 		$('.dapperdev .overlay-text').show();
 		$('.dapperdev-image').addClass('blur');
