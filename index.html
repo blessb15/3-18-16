@@ -8,89 +8,50 @@
 	<script src="js/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="js/scripts.js?v=3"></script>
 	<link rel="shortcut icon" href="https://blessb15.github.io/Portfolio/favicon.ico">
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="styles/stylesheet.css?v=3" rel="stylesheet" media="screen"/>
+	<!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+	<link href="css/styles.css?v=3" rel="stylesheet" media="screen"/>
 </head>
 <body>
-	<div class="navigation font1">
-		<a id="projects"><div class="nav-projects">Projects</div></a>
-		<div class="nav-logo"><a href="#home"><img src="img/3B2.png" class="logo"></a></div>
-		<div class="nav-contact">Contact</div>
-		<div class="contact-window">
-			<div class="contact-window-header">
-				Get In Touch
-			</div>
-			<div class="contact-window-form">
-				<center>
-					<form action="https://formspree.io/blakebless7@gmail.com" method="POST">
-						<input type="text" name="name" class="form-name" placeholder="Your Name">
-						<input type="email" name="_replyto" placeholder="Your Email" class="form-email">
-						<textarea name="message" placeholder="Your message" class="form-message"></textarea>
-						<input type="submit" value="SUBMIT" class="form-submit">
-					</form>
-				</center>
-			</div>
-		</div>
+	<a name="home"></a>
+	<div class="main font1">
+		<div class="main-logo"><a href="#home"><img src="img/BLogo.png" class="logo" onclick="$(window).scrollTop(0);"></a></div>
 	</div>
-	<div class="header">
-		<a name="home"></a>
-		<div class="center">
-			<h1 class="white font1 name-header no-select">BLAKE BLESS</h1>
-			<div class="about-block font1">
-				<p class="about-excerpt no-select">
-					Web developer/designer based in Portland, Oregon.
-				</p>
-			</div>
-		</div>
+	<div class="welcome">
+		<h1 class="font1">Welcome.</h1>
+		<img src="img/down.png" class="welcome-down" alt="arrow down">
 	</div>
-	<div class="projects">
-<!-- 		<div class="proj-header font1 no-select">My Work</div>
-		<div class="proj-header-ln"></div> -->
-		<a id="projectsDiv"></a>
-		<a href="https://dapper-development.com" target="_blank">
-			<div class="dapperdev font1">
-				<div class="dapperdev-image"></div>
-				<div class="image-overlay">
-					<div class="overlay-text">
-						<h1>Dapper Development</h1>
-						<div class="overlay-tec">
-							<span>JS &#8226; HTML &#8226; CSS &#8226; JQUERY</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
-		<a href="https://blessb15.github.io/ExpressItPromos/index" target="_blank">
-			<div class="expressit font1">
-				<div class="expressit-image"></div>
-				<div class="image-overlay">
-					<div class="overlay-text">
-						<h1>Express It Promos</h1>
-						<div class="overlay-tec">
-							<span>JS  &#8226; HTML &#8226; Bootstrap &#8226; JEKYLL &#8226; SASS &#8226; JQUERY &#8226; LIQUID</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="footer">
+	<div class="sidebar">
 		<a href="https://twitter.com/bless_blake">
-			<div class="twitter-icon footer-icon">
-				<img src="img/twitter-icon.png" width="40px">
+			<div class="footer-icon">
+				<img src="img/twitter-icon.png" alt="twitter icon" width="40px">
 			</div>
 		</a>
 		<a href="https://github.com/blessb15">
-			<div class="github-icon footer-icon">
-				<img src="img/github-icon.png" width="40px">
+			<div class="footer-icon">
+				<img src="img/github-icon.png" alt="github icon" width="40px">
 			</div>
 		</a>
 		<a href="https://www.linkedin.com/in/blakebless">
-			<div class="linkedin-icon footer-icon">
-				<img src="img/linkedin-icon.png" width="40px">
+			<div class="footer-icon">
+				<img src="img/linkedin-icon.png" alt="linkedin icon" width="40px">
 			</div>
 		</a>
 	</div>
-	<div class="top-btn">TOP</div>
+	<div class="nav-numbers"><span class="nav-1">1</span><span class="nav-2">2</span><span class="nav-3">3</span></div>
+	<div class="box-1 box">
+		<div class="box-title font1">
+			Dapper Development
+		</div>
+	</div>
+	<div class="box-2 box">
+		<div class="box-title font1">
+			ExpressIt Promos
+		</div>
+	</div>
+	<div class="box-3 box">
+		<div class="box-title font1">
+			I like chicken and making fukin websoots
+		</div>
+	</div>
 </body>
 </html>
